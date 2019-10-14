@@ -13,7 +13,7 @@ export default new Router({
   linkExactActiveClass: 'active',
   routes: [
     {
-      path: '/',
+      path: '/index',
       name: 'index',
       components: { default: Index, header: MainNavbar, footer: MainFooter },
       props: {
@@ -22,7 +22,7 @@ export default new Router({
       }
     },
     {
-      path: '/landing',
+      path: '/',
       name: 'landing',
       components: { default: Landing, header: MainNavbar, footer: MainFooter },
       props: {
