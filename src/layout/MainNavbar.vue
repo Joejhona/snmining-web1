@@ -1,11 +1,12 @@
 <template>
   <navbar
     position="fixed"
-    type="primary"
+    type="info"
     :transparent="transparent"
     :color-on-scroll="colorOnScroll"
     menu-classes="ml-auto"
   >
+    <!--
     <template slot-scope="{ toggle, isToggled }">
       <router-link v-popover:popover1 class="navbar-brand" to="/">
         Now Ui Kit
@@ -22,7 +23,13 @@
         </div>
       </el-popover>
     </template>
+    -->
+    <b-navbar-brand href="#">
+      <!--<img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="Kitten">-->
+      <p style="font-family: 'Fredoka One', cursive; color:white; font-size:150%;">SN Mining</p>
+    </b-navbar-brand>
     <template slot="navbar-menu">
+      <!--
       <li class="nav-item">
         <a
           class="nav-link"
@@ -30,42 +37,60 @@
           target="_blank"
         >
           <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Download</p>
+          <p>Nosotros</p>
         </a>
       </li>
+      -->
       <drop-down
         tag="li"
-        title="Components"
-        icon="now-ui-icons design_app"
+        title="Empresa"
+        icon="now-ui-icons ui-2_settings-90"
         class="nav-item"
       >
         <nav-link to="/">
-          <i class="now-ui-icons business_chart-pie-36"></i> All components
+          <i class="now-ui-icons business_chart-pie-36"></i> Nosotros
         </nav-link>
-        <a
+        <nav-link to="/">
+          <i class="now-ui-icons business_chart-pie-36"></i> Certificaciones
+        </nav-link>
+        <nav-link to="/">
+          <i class="now-ui-icons business_chart-pie-36"></i> Trabaja con nosotros
+        </nav-link>
+        <nav-link to="/">
+          <i class="now-ui-icons business_chart-pie-36"></i> Contactanos
+        </nav-link>
+        <!--<a
           href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
           target="_blank"
           class="dropdown-item"
         >
           <i class="now-ui-icons design_bullet-list-67"></i> Documentation
         </a>
+        -->
       </drop-down>
       <drop-down
-              tag="li"
-              title="Examples"
-              icon="now-ui-icons design_image"
-              class="nav-item"
+        tag="li"
+        title="Negocios"
+        icon="now-ui-icons business_briefcase-24"
+        class="nav-item"
       >
         <nav-link to="/landing">
-          <i class="now-ui-icons education_paper"></i> Landing
+          <i class="now-ui-icons education_paper"></i> Ingenieria
         </nav-link>
         <nav-link to="/login">
-          <i class="now-ui-icons users_circle-08"></i> Login
+          <i class="now-ui-icons users_circle-08"></i> Mantenimiento
         </nav-link>
         <nav-link to="/profile">
-          <i class="now-ui-icons users_single-02"></i> Profile
+          <i class="now-ui-icons users_single-02"></i> Maestranza
+        </nav-link>
+        <nav-link to="/profile">
+          <i class="now-ui-icons users_single-02"></i> Energia Limpia
+        </nav-link>
+        <nav-link to="/profile">
+          <i class="now-ui-icons users_single-02"></i> Alquiler de Equipos
         </nav-link>
       </drop-down>
+      <!---
       <li class="nav-item">
         <a
           class="nav-link btn btn-neutral"
@@ -76,7 +101,7 @@
           <p>Upgrade to PRO</p>
         </a>
       </li>
-
+      
       <li class="nav-item">
         <a
           class="nav-link"
@@ -116,6 +141,7 @@
           <p class="d-lg-none d-xl-none">Instagram</p>
         </a>
       </li>
+      --->
     </template>
   </navbar>
 </template>

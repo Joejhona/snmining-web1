@@ -8,18 +8,21 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">This is our great company.</h1>
+          <h1 class="title" style="font-family: 'Audiowide', cursive; text-shadow: 3px 2px 10px #1B67CE; font-size:400%;">SN Mining</h1>
+          <h2 style="font-size:300%; font-family: 'Shrikhand', cursive; text-shadow: 3px 2px 10px #1B67CE;">Especialistas en Mineria</h2>
+          <!---
           <div class="text-center">
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+            <a href="#pablo" class="btn btn-info btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+            <a href="#pablo" class="btn btn-info btn-icon btn-round">
               <i class="fab fa-twitter"></i>
             </a>
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+            <a href="#pablo" class="btn btn-info btn-icon btn-round">
               <i class="fab fa-google-plus"></i>
             </a>
           </div>
+          --->
         </div>
       </div>
     </div>
@@ -27,16 +30,16 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Who we are?</h2>
-            <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
-            </h5>
+            <h2 style="font-family: 'Bungee Inline', cursive;">Sobre nosotros</h2>
+            <h4 class="description" style="font-size:200%; font-family: 'Luckiest Guy', cursive;">
+              Somos una empresa joven del sector minero dedicada 
+              a realizar proyectos de mecánica eléctrica, 
+              contamos con profesionales y equipamiento 
+              para la mediana y gran minería.
+            </h4>
           </div>
         </div>
-        <div class="separator separator-primary"></div>
+        <div class="separator separator-info"></div>
         <div class="section-story-overview">
           <div class="row">
             <div class="col-md-6">
@@ -45,7 +48,7 @@
                 style="background-image: url('img/login.jpg')"
               >
                 <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary">
+                <p class="blockquote blockquote-info">
                   "Over the span of the satellite record, Arctic sea ice has
                   been declining significantly, while sea ice in the
                   Antarctichas increased very slightly"
@@ -114,20 +117,20 @@
                   class="rounded-circle img-fluid img-raised"
                 />
                 <h4 class="title">Romina Hadid</h4>
-                <p class="category text-primary">Model</p>
+                <p class="category text-info">Model</p>
                 <p class="description">
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
                   some <a href="#">links</a> for people to be able to follow
                   them outside the site.
                 </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="#pablo" class="btn btn-info btn-icon btn-round"
                   ><i class="fab fa-twitter"></i
                 ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="#pablo" class="btn btn-info btn-icon btn-round"
                   ><i class="fab fa-instagram"></i
                 ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="#pablo" class="btn btn-info btn-icon btn-round"
                   ><i class="fab fa-facebook-square"></i
                 ></a>
               </div>
@@ -140,17 +143,17 @@
                   class="rounded-circle img-fluid img-raised"
                 />
                 <h4 class="title">Ryan Tompson</h4>
-                <p class="category text-primary">Designer</p>
+                <p class="category text-info">Designer</p>
                 <p class="description">
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
                   some <a href="#">links</a> for people to be able to follow
                   them outside the site.
                 </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="#pablo" class="btn btn-info btn-icon btn-round"
                   ><i class="fab fa-twitter"></i
                 ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="#pablo" class="btn btn-info btn-icon btn-round"
                   ><i class="fab fa-linkedin"></i
                 ></a>
               </div>
@@ -163,20 +166,20 @@
                   class="rounded-circle img-fluid img-raised"
                 />
                 <h4 class="title">Eva Jenner</h4>
-                <p class="category text-primary">Fashion</p>
+                <p class="category text-info">Fashion</p>
                 <p class="description">
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
                   some <a href="#">links</a> for people to be able to follow
                   them outside the site.
                 </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="#pablo" class="btn btn-info btn-icon btn-round"
                   ><i class="fab fa-google-plus"></i
                 ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="#pablo" class="btn btn-info btn-icon btn-round"
                   ><i class="fab fa-youtube"></i
                 ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="#pablo" class="btn btn-info btn-icon btn-round"
                   ><i class="fab fa-twitter"></i
                 ></a>
               </div>
@@ -216,7 +219,7 @@
               ></textarea>
             </div>
             <div class="send-button">
-              <n-button type="primary" round block size="lg"
+              <n-button type="info" round block size="lg"
                 >Send Message</n-button
               >
             </div>
@@ -246,4 +249,6 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Bungee+Inline|Fredoka+One|Luckiest+Guy|Shrikhand&display=swap');
+</style>
